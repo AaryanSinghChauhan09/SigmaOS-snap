@@ -6,6 +6,9 @@
 #![forbid(unsafe_code)]
 #![warn(missing_docs)]
 
+/// Snap package management module.
+pub mod sigmasnap;
+
 /// Errors raised by this component.
 #[derive(Debug, thiserror::Error)]
 pub enum ComponentError {
